@@ -44,6 +44,6 @@ print("User1 => ", user1.build())
 
 
 user2 = UserBuilder("Jane")
-user2.set_gender("Femail").set_email("jane@gmail.com")
+user2.set_phone("+1-9999999999").set_email("jane@gmail.com")
 
 print("User2 => ", user2.build())
